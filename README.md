@@ -26,7 +26,7 @@ A simple and interactive Weather Dashboard web app that displays real-time weath
 
 | Search View | Weather Info View |
 |:-----------:|:-----------------:|
-| ![Search](assets/screenshots/search.png) | ![Weather](assets/screenshots/weather.png) |
+| ![Search](assets/screenshots/Search.png) | ![Weather](assets/screenshots/Weather.png) |
 
 
 ## 🔑 How to Get an OpenWeatherMap API Key
