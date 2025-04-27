@@ -1,12 +1,49 @@
-# React + Vite
+# Weather Dashboard 🌦️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Weather Dashboard web app that displays real-time weather information based on the user's search. Built using **HTML**, **CSS**, and **JavaScript**, and powered by the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for current weather by city name
+- Displays:
+  - City name
+  - Temperature
+  - Humidity
+  - Wind speed
+  - Weather description
+  - Weather icon
+- Responsive and user-friendly UI
+- API integration using `fetch()` for live data updates
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- OpenWeatherMap API
+
+## 📸 Screenshots
+
+| Search View | Weather Info View |
+|:-----------:|:-----------------:|
+| ![Search](assets/screenshots/search.png) | ![Weather](assets/screenshots/weather.png) |
+
+
+## 🔑 How to Get an OpenWeatherMap API Key
+
+- Visit [OpenWeatherMap](https://openweathermap.org/api)
+- Sign up for a free account
+- Navigate to the **API keys** section
+- Generate a new API key
+- Copy and paste it into your `script.js` file
+
+## ✨ Future Improvements
+
+- Add 5-day weather forecast
+- Save previously searched cities using LocalStorage
+- Improve UI with animations and better responsiveness
+- Dark mode support
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
